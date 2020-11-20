@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.board.member.tx.ITXDAO">
+	<insert id="insertStr10" parameterType="String">
+		INSERT INTO txone VALUES( #{str})
+	</insert>
+	
+	<insert id="insertStr30">
+		INSERT INTO txtwo VALUES( #{str})
+	</insert>
+	
+</mapper>
